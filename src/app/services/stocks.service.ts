@@ -27,7 +27,7 @@ export class StocksService {
 
   remove(stock) {
     stocks.splice(stocks.indexOf(stock), 1);
-    return this.get;
+    return this.get();
   }
 
   load(symbols) {
